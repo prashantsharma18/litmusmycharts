@@ -254,12 +254,12 @@ spec:
                           stopOnFailure: false
                         k8sProbe/inputs:
                           operation: present
-                          group: '""'
-                          version: '""'
-                          resource: '"pods"'
-                          namespace: '"default"'
-                          fieldSelector: '"status.phase=Running"'
-                          labelSelector: '"app=productcatalogservice"'
+                          group: ""
+                          version: ""
+                          resource: "pods"
+                          namespace: "default"
+                          fieldSelector: "status.phase=Running"
+                          labelSelector: "app=productcatalogservice"
               annotationCheck: "false"
     metadata:
       labels:
